@@ -1,239 +1,239 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8"><!-- ასე მოკლედაც შეიძლება დაწერა -->
+
 <title>Mockup</title>
 <meta name="keywords" content="Mockup" />
 <meta name="description" content="Mockup" />
+
+<link rel="stylesheet" href="LOCATION OF TGHE CSS FILE">
+
 <style>
-body{
-margin:auto;
-background-color:#EBEBEB;
-}
-#generalHeader{
-margin-left:auto;
-margin-right:auto;
-width:100%;
-height:30px;
-background-color:#D6D6D6;
-}
-#header{
-margin-left:auto;
-margin-right:auto;
-width:1200px;
-height:30px;
-background-color:#D6D6D6;
-}
-#header ul{
-float:left;
-margin:0;
+	body{
+	margin:auto;
+	background-color:#EBEBEB;
+	}
+	#generalHeader{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:30px;
+	background-color:#D6D6D6;
+	}
+	#header{
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+	height:30px;
+	background-color:#D6D6D6;
+	}
+	#header ul{
+	float:left;
+	margin:0;
 
-}
-#header ul li{
-float:left; 
-margin-left:20px;
-list-style:none;
+	}
+	#header ul li{
+	float:left; 
+	margin-left:20px;
+	list-style:none;
 
-padding:5px;
+	padding:5px;
 
-}
-#header ul li a{
-text-decoration:none;
-color:black;
-}
-#header ul li a:hover{
-text-decoration:none;
-color:grey;
-}
-#header .header_search{
-float:right;
-padding:3px;
-}
-#content {
-margin-left:auto;
-margin-right:auto;
-width:1200px;
-margin-top:10px;
-height:300px;
-background-color:#DBDBDB;
-}
-#content .slider
-{
-padding:20px;
-background-color:black;
-width:100px;
-color:white;
-}
-
-
-#content1 {
-margin-left:auto;
-margin-right:auto;
-width:1200px;
-margin-top:10px;
-height:300px;
-}
-#content1 .videos
-{
-background-color:black;
-width:292px;
-color:white;
-background-color:#DBDBDB;
-height:200px;
-float:left;
-}
-#content1 .videos1
-{
-background-color:black;
-width:293px;
-color:white;
-background-color:#ABBEFF;
-height:200px;
-float:left;
-}
+	}
+	#header ul li a{
+	text-decoration:none;
+	color:black;
+	}
+	#header ul li a:hover{
+	text-decoration:none;
+	color:grey;
+	}
+	#header .header_search{
+	float:right;
+	padding:3px;
+	}
+	#content {
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+	margin-top:10px;
+	height:300px;
+	background-color:#DBDBDB;
+	}
+	#content .slider
+	{
+	padding:20px;
+	background-color:black;
+	width:100px;
+	color:white;
+	}
 
 
+	#content1 {
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+	margin-top:10px;
+	/* height:300px; */ 
+	}
+	#content1 .videos
+	{
+	background-color:black;
+	width:292px;
+	color:white;
+	background-color:#DBDBDB;
+	height:200px;
+	display: inline-block;
+	margin-right: 6px;
+	}
+	#content1 .videos:nth-of-type(4)
+	{
+	margin-right: -4px;
+	}
+	#content1 .videos1
+	{
+	background-color:black;
+	width:293px;
+	color:white;
+	background-color:#ABBEFF;
+	height:200px;
+	float:left;
+	}
 
-#content1 .first
-{
-background-color:black;
-width:49.5%;
-color:white;
-background-color:#DBDBDB;
-height:300px;
-float:left;
-margin-top:10px;
-margin-bottom:10px;
-}
-
-#content1 .second
-{
-background-color:black;
-width:49.5%;
-color:white;
-background-color:#DBDBDB;
-height:300px;
-float:right;
-margin-top:10px;
-margin-bottom:10px;
-}
+	.clear {clear: both;}
 
 
-#footer
-{
-background-color:black;
-width:100%;
-color:white;
-background-color:#DBDBDB;
-height:50px;
-float:right;
-margin-top:10px;
-}
-</style>
+	#content1 .first
+	{
+	background-color:black;
+	width:49.5%;
+	color:white;
+	background-color:#DBDBDB;
+	height:300px;
+	float:left;
+	display: inline-block;
+	margin:10px 0; /* იგივეა რაც: margin-top: 10px; margin-bottom: 10px;*/
+	}
+
+	#content1 .second
+	{
+	background-color:black;
+	width:49.5%;
+	color:white;
+	background-color:#DBDBDB;
+	height:300px;
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+
+	#footer
+	{
+	background-color:black;
+	width:100%;
+	color:white;
+	background-color:#DBDBDB;
+	height:50px;
+	float:right;
+	margin-top:10px;
+	}
+	.clearfix:before,
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	}
+	 
+	.clearfix:after {
+	  clear: both;
+	}
+	</style>
 </head>
 <body>
+	<div id="generalHeader">
+		<nav id="header">
+			<ul>
+				<li><a href="" title="home">HOME</a></li>
+				<li><a href="" title="PHOTOS">PHOTOS</a></li>
+				<li><a href="" title="VIDEOS">VIDEOS</a></li>
+				<li><a href="" title="FEATURED">FEATURED</a></li>
+				<li><a href="" title="CONTACT">CONTACT</a></li>
+			</ul>
+			<div class="header_search"><input type="text" placeholder="Text here"></div>
+		</nav>
+	</div>
+	<div id="content">
+		<div class="slider" style="">LOGO #1</div>
+	</div>
+	<main id="content1">
+		<section>
+		<div class="videos">
+			<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe</div>
+		</div>
 
+		<div class="videos">
+			<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe</div>
+		</div>
 
-<div id="generalHeader">
-<div id="header">
-<ul>
-<li><a href="" title="home">HOME</a></li>
-<li><a href="" title="PHOTOS">PHOTOS</a></li>
-<li><a href="" title="VIDEOS">VIDEOS</a></li>
-<li><a href="" title="FEATURED">FEATURED</a></li>
-<li><a href="" title="CONTACT">CONTACT</a></li>
-</ul>
+		<div class="videos">
+			<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe </div>
+		</div>
 
-<div class="header_search"><input type="text" placeholder="Text here"></div>
-</div>
-</div>
+		<div class="videos">
+			<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe </div>
+		</div>
+	</section>
+		<!-- მაქსიმალურად უნდა ეცადო რომ კოდის დუბლირება არ მოხდეს,
+		რადგან ეს ორი ელემენტი ზუსტად ერთიდაიგივეა საკმარისია მხოლოდ ერთი სტილის გამოყენება-->
+	<section>
+		<div class="first" style="">
+			First Video
+		</div>
+		<div class="second" style="">
+			Second Video
+		</div>
+		<div class="clear"></div><!-- ეს შეგილია წაშალო წოტახანი და ნახო დეველოპერ თულით რომ მიხვდე რატომ დავამატე -->
+		
+	</section>
+	<section>
+		<div class="videos">
+			<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
+		</div>
 
-<div id="content">
-<div class="slider" style="">LOGO #1</div>
-</div>
+		<div class="videos">
+			<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
+		</div>
 
-<div id="content1">
-<div class="videos">
-<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe</div>
+		<div class="videos">
+			<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
+		</div>
 
-</div>
+		<div class="videos">
+			<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
+			<div style="padding:5px;color:black">Title</div>
+			<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
+		</div>
+	</section>	
+	</main>
 
-<div class="videos1" style="margin-left:10px;">
-<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe</div>
-
-</div>
-
-<div class="videos" style="margin-left:10px;">
-<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe </div>
-
-</div>
-
-<div class="videos1" style="margin-left:10px;">
-<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe </div>
-
-</div>
-
-
-
-
-
-
-
-<div class="first" style="">
-First Video
-</div>
-<div class="second" style="">
-Second Video
-</div>
-
-
-
-<div class="videos">
-<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
-
-</div>
-
-<div class="videos1" style="margin-left:10px;">
-<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
-
-</div>
-
-<div class="videos" style="margin-left:10px;">
-<div style="background-color:black;width:290px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
-
-</div>
-
-<div class="videos1" style="margin-left:10px;">
-<div style="background-color:black;width:292px;height:140px;">IMAGE</div>
-<div style="padding:5px;color:black">Title</div>
-<div style="padding:5px;color:black;font-size:13px;">Author: John Doe / Uploaded: 23 May</div>
-
-</div>
-
-
-
-
-
-</div>
-
-
-<div id="footer">
-Footer
-</div>
+	<footer id="footer">
+	Footer
+	</footer>
 
 </body>
 </html>
